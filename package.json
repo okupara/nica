@@ -1,0 +1,12 @@
+{
+  "name": "nica",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.2",
+  "scripts": {
+    "dev": "pnpm --filter @nica/web dev",
+    "build": "pnpm --filter @nica/web build",
+    "start": "pnpm --filter @nica/web start",
+    "lint": "pnpm -r lint"
+  }
+}
