@@ -1,4 +1,4 @@
-/* Synced from the Figma "Gray Primitives" variable collection. */
+/* Synced from the Figma color primitive variables. */
 :root {
   --gray-light-25: #fdfdfd;
   --gray-light-50: #faf9fa;
@@ -108,6 +108,42 @@
   --gray-warm-800: #292524;
   --gray-warm-900: #1c1917;
   --gray-warm-950: #171412;
+  --orange-25: #fefaf5;
+  --orange-50: #fef6ee;
+  --orange-100: #fdead7;
+  --orange-200: #f9dbaf;
+  --orange-300: #f7b27a;
+  --orange-400: #f38744;
+  --orange-500: #ef6820;
+  --orange-600: #e04f16;
+  --orange-700: #b93815;
+  --orange-800: #932f19;
+  --orange-900: #772917;
+  --orange-950: #521d10;
+  --orange-dark-25: #fff9f5;
+  --orange-dark-50: #fff4ed;
+  --orange-dark-100: #ffe6d5;
+  --orange-dark-200: #ffd6ae;
+  --orange-dark-300: #ff9c66;
+  --orange-dark-400: #ff692e;
+  --orange-dark-500: #ff4405;
+  --orange-dark-600: #e62e05;
+  --orange-dark-700: #bc1b06;
+  --orange-dark-800: #97180c;
+  --orange-dark-900: #771a0d;
+  --orange-dark-950: #55130a;
+  --yellow-25: #fefdf0;
+  --yellow-50: #fefbe8;
+  --yellow-100: #fef7c3;
+  --yellow-200: #feee95;
+  --yellow-300: #fde272;
+  --yellow-400: #fac515;
+  --yellow-500: #eaaa08;
+  --yellow-600: #ca8504;
+  --yellow-700: #a15c07;
+  --yellow-800: #854a0e;
+  --yellow-900: #713b12;
+  --yellow-950: #4d2009;
 }
 
 @theme inline {
@@ -219,4 +255,40 @@
   --color-gray-warm-800: var(--gray-warm-800);
   --color-gray-warm-900: var(--gray-warm-900);
   --color-gray-warm-950: var(--gray-warm-950);
+  --color-orange-25: var(--orange-25);
+  --color-orange-50: var(--orange-50);
+  --color-orange-100: var(--orange-100);
+  --color-orange-200: var(--orange-200);
+  --color-orange-300: var(--orange-300);
+  --color-orange-400: var(--orange-400);
+  --color-orange-500: var(--orange-500);
+  --color-orange-600: var(--orange-600);
+  --color-orange-700: var(--orange-700);
+  --color-orange-800: var(--orange-800);
+  --color-orange-900: var(--orange-900);
+  --color-orange-950: var(--orange-950);
+  --color-orange-dark-25: var(--orange-dark-25);
+  --color-orange-dark-50: var(--orange-dark-50);
+  --color-orange-dark-100: var(--orange-dark-100);
+  --color-orange-dark-200: var(--orange-dark-200);
+  --color-orange-dark-300: var(--orange-dark-300);
+  --color-orange-dark-400: var(--orange-dark-400);
+  --color-orange-dark-500: var(--orange-dark-500);
+  --color-orange-dark-600: var(--orange-dark-600);
+  --color-orange-dark-700: var(--orange-dark-700);
+  --color-orange-dark-800: var(--orange-dark-800);
+  --color-orange-dark-900: var(--orange-dark-900);
+  --color-orange-dark-950: var(--orange-dark-950);
+  --color-yellow-25: var(--yellow-25);
+  --color-yellow-50: var(--yellow-50);
+  --color-yellow-100: var(--yellow-100);
+  --color-yellow-200: var(--yellow-200);
+  --color-yellow-300: var(--yellow-300);
+  --color-yellow-400: var(--yellow-400);
+  --color-yellow-500: var(--yellow-500);
+  --color-yellow-600: var(--yellow-600);
+  --color-yellow-700: var(--yellow-700);
+  --color-yellow-800: var(--yellow-800);
+  --color-yellow-900: var(--yellow-900);
+  --color-yellow-950: var(--yellow-950);
 }
