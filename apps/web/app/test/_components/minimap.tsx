@@ -89,7 +89,7 @@ function Line({
   return (
     <motion.div
       ref={ref}
-      className={active ? "bg-gray12" : "bg-gray9"}
+      className={active ? "bg-gray-iron-950" : "bg-gray-iron-700"}
       style={{
         width: LINE_WIDTH,
         height: active ? LINE_HEIGHT_ACTIVE : LINE_HEIGHT,
@@ -266,7 +266,7 @@ export function isActive(index: number, count: number): boolean {
 export function Indicator({ x }: { x: MotionValue<number> }) {
   return (
     <motion.div
-      className="flex flex-col bg-orange w-[1px] items-center absolute h-[100vh]! -top-8"
+      className="flex flex-col bg-orange-500 w-[1px] items-center absolute h-[100vh]! -top-8"
       style={{ x }}
     >
       <svg
